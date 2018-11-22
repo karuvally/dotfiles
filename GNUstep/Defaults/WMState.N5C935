@@ -1,0 +1,165 @@
+{
+  Dock = {
+    AutoRaiseLower = No;
+    Applications768 = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = Yes;
+        Command = "/usr/bin/WPrefs";
+      },
+      {
+        Forced = No;
+        Name = wmacpi.DockApp;
+        DropCommand = "wmacpi %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = Yes;
+        PasteCommand = "wmacpi %s";
+        Command = wmacpi;
+      },
+      {
+        Forced = No;
+        Name = "wmweather+.DockApp";
+        DropCommand = "wmweather+ -metar-station VOTV -tempc -kph %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = Yes;
+        PasteCommand = "wmweather+ -metar-station VOTV -tempc -kph %s";
+        Command = "wmweather+ -metar-station VOTV -tempc -kph";
+      },
+      {
+        Forced = No;
+        Name = docker.Docker;
+        DropCommand = "wmdocker -wmaker %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = Yes;
+        PasteCommand = "wmdocker -wmaker %s";
+        Command = "wmdocker -wmaker";
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        DropCommand = "wmclock %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = Yes;
+        PasteCommand = "wmclock %s";
+        Command = wmclock;
+      }
+    );
+    Applications = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = Yes;
+        Command = "/usr/bin/WPrefs";
+      },
+      {
+        Forced = No;
+        Name = wmacpi.DockApp;
+        DropCommand = "wmacpi %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = Yes;
+        PasteCommand = "wmacpi %s";
+        Command = wmacpi;
+      },
+      {
+        Forced = No;
+        Name = "wmweather+.DockApp";
+        DropCommand = "wmweather+ -metar-station VOTV -tempc -kph %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = Yes;
+        PasteCommand = "wmweather+ -metar-station VOTV -tempc -kph %s";
+        Command = "wmweather+ -metar-station VOTV -tempc -kph";
+      },
+      {
+        Forced = No;
+        Name = docker.Docker;
+        DropCommand = "wmdocker -wmaker %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = Yes;
+        PasteCommand = "wmdocker -wmaker %s";
+        Command = "wmdocker -wmaker";
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        DropCommand = "wmclock %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = Yes;
+        PasteCommand = "wmclock %s";
+        Command = wmclock;
+      }
+    );
+    Lowered = Yes;
+    Position = "-64,0";
+  };
+  Clip = {
+    Forced = No;
+    Name = Logo.WMClip;
+    DropCommand = "wmsetbg -u -t %d";
+    BuggyApplication = No;
+    AutoLaunch = No;
+    Position = "0,0";
+    Lock = No;
+    Command = "-";
+  };
+  Drawers = ();
+  Workspaces = (
+    {
+      Clip = {
+        AutoRaiseLower = Yes;
+        AutoCollapse = Yes;
+        Applications = (
+          {
+            Forced = No;
+            Name = wmwave.wmwave;
+            DropCommand = "wmwave %d";
+            BuggyApplication = No;
+            AutoLaunch = No;
+            Position = "0,1";
+            Lock = No;
+            PasteCommand = "wmwave %s";
+            Command = wmwave;
+            Omnipresent = No;
+          }
+        );
+        Collapsed = Yes;
+        AutoAttractIcons = Yes;
+        Lowered = Yes;
+      };
+      Name = Main;
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = Yes;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = Yes;
+        Lowered = Yes;
+      };
+      Name = Secondary;
+    }
+  );
+}

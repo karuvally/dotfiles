@@ -1,0 +1,123 @@
+{
+  Dock = {
+    AutoRaiseLower = No;
+    Applications = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = Yes;
+        Command = "/usr/bin/WPrefs";
+      },
+      {
+        Forced = No;
+        Name = wmacpi.DockApp;
+        DropCommand = "wmacpi %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = No;
+        PasteCommand = "wmacpi %s";
+        Command = wmacpi;
+      },
+      {
+        Forced = No;
+        Name = wmcpuload.DockApp;
+        DropCommand = "wmcpuload %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = No;
+        PasteCommand = "wmcpuload %s";
+        Command = wmcpuload;
+      }
+    );
+    Lowered = Yes;
+    Position = "-64,0";
+    Applications900 = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = Yes;
+        Command = "/usr/bin/WPrefs";
+      },
+      {
+        Forced = No;
+        Name = wmacpi.DockApp;
+        DropCommand = "wmacpi %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = No;
+        PasteCommand = "wmacpi %s";
+        Command = wmacpi;
+      },
+      {
+        Forced = No;
+        Name = wmcpuload.DockApp;
+        DropCommand = "wmcpuload %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = No;
+        PasteCommand = "wmcpuload %s";
+        Command = wmcpuload;
+      }
+    );
+  };
+  Clip = {
+    Forced = No;
+    Name = Logo.WMClip;
+    DropCommand = "wmsetbg -u -t %d";
+    BuggyApplication = No;
+    AutoLaunch = No;
+    Position = "0,0";
+    Lock = No;
+    Command = "-";
+  };
+  Applications = ();
+  Drawers = ();
+  Workspaces = (
+    {
+      Clip = {
+        AutoRaiseLower = Yes;
+        AutoCollapse = Yes;
+        Applications = (
+          {
+            Forced = No;
+            Name = wmwave.wmwave;
+            DropCommand = "wmwave %d";
+            BuggyApplication = No;
+            AutoLaunch = No;
+            Position = "0,1";
+            Lock = No;
+            PasteCommand = "wmwave %s";
+            Command = wmwave;
+            Omnipresent = No;
+          }
+        );
+        Collapsed = Yes;
+        AutoAttractIcons = Yes;
+        Lowered = Yes;
+      };
+      Name = Main;
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = Yes;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = Yes;
+        Lowered = Yes;
+      };
+      Name = Secondary;
+    }
+  );
+  Workspace = Main;
+}

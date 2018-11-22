@@ -1,0 +1,191 @@
+{
+  firefox.Firefox = {
+    Icon = Mozilla.png;
+  };
+  soffice.Soffice = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/soffice.Soffice.xpm";
+  };
+  leafpad.Leafpad = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/leafpad.Leafpad.xpm";
+  };
+  updater.Updater = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/updater.Updater.xpm";
+  };
+  hexchat.Hexchat = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/hexchat.Hexchat.xpm";
+  };
+  default.default = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/default.default.xpm";
+  };
+  color_palette.Gimp = {
+    AlwaysUserIcon = Yes;
+    NoResizebar = Yes;
+    Icon = "wmaker-gimp-palette.tif";
+  };
+  ristretto.Ristretto = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/ristretto.Ristretto.xpm";
+  };
+  KTerm = {
+    Icon = GNUterm.tiff;
+  };
+  reaper5. = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/reaper5..xpm";
+  };
+  Netscape = {
+    Icon = "wmaker-netscape.tif";
+  };
+  xterm.XTerm = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/xterm.XTerm.xpm";
+  };
+  tool_options.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-tooloption.tif";
+  };
+  WPrefs = {
+    Icon = "/usr/share/lib/GNUstep/System/Applications/WPrefs.app/WPrefs.tiff";
+  };
+  emacs = {
+    Icon = "wmaker-emacs.tif";
+  };
+  toolbox.Gimp = {
+    NoAppIcon = Yes;
+    Icon = "wmaker-gimp2.tif";
+  };
+  WMSoundServer = {
+    Icon = Sound.tiff;
+  };
+  Dockit = {
+    Icon = GNUstep.tiff;
+  };
+  groupLeader.WPrefs = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/groupLeader.WPrefs.xpm";
+  };
+  "x-terminal-emulator.X-terminal-emulator" = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/x-terminal-emulator.X-terminal-emulator.xpm";
+  };
+  patternselection.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-patterns.tif";
+  };
+  image_window.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-work.tif";
+  };
+  Rxvt = {
+    Icon = GNUterm.tiff;
+  };
+  code.Code = {
+    AlwaysUserIcon = Yes;
+    Icon = Draw.xpm;
+  };
+  "Script-fu" = {
+    Icon = "wmaker-gimp-script-fu.tif";
+  };
+  gmc = {
+    SkipWindowList = Yes;
+    NoAppIcon = Yes;
+    Omnipresent = Yes;
+  };
+  vlc.vlc = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/vlc.vlc.xpm";
+  };
+  Tile.WMClip = {
+    Icon = clip.tiff;
+  };
+  "Mozilla-bin" = {
+    Icon = "wmaker-nav.tif";
+  };
+  "virt-viewer.Virt-viewer" = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/virt-viewer.Virt-viewer.xpm";
+  };
+  lxterminal.Lxterminal = {
+    AlwaysUserIcon = Yes;
+    Icon = TerminalLinux.tiff;
+  };
+  gvim.Gvim = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/gvim.Gvim.xpm";
+  };
+  Navigator.Firefox = {
+    AlwaysUserIcon = Yes;
+    Icon = Mozilla.png;
+  };
+  preferences.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-prefs.tif";
+  };
+  tip_of_the_day.Gimp = {
+    NoMiniaturizeButton = Yes;
+    AlwaysUserIcon = Yes;
+    NoResizebar = Yes;
+    Icon = "wmaker-gimp2.tif";
+    KeepOnTop = Yes;
+    NoCloseButton = Yes;
+  };
+  indexed_color_palette.Gimp = {
+    AlwaysUserIcon = Yes;
+    NoResizebar = Yes;
+    Icon = "wmaker-gimp-palette.tif";
+  };
+  "script-fu.Script-fu" = {
+    Icon = "wmaker-gimp-script-fu.tif";
+  };
+  panel = {
+    NoAppIcon = Yes;
+  };
+  "gimp-2.8.Gimp-2.8" = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/gimp-2.8.Gimp-2.8.xpm";
+  };
+  layers_and_channels.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-layers.tif";
+  };
+  thunar.Thunar = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/thunar.Thunar.xpm";
+  };
+  brushselection.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-brushes.tif";
+  };
+  gradient_editor.Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp-gradient.tif";
+  };
+  "Navigator.Firefox Developer Edition" = {
+    AlwaysUserIcon = Yes;
+    Icon = Mozilla.png;
+  };
+  gimp_startup.Gimp = {
+    NotClosable = Yes;
+    NoTitlebar = Yes;
+    NotMiniaturizable = Yes;
+    AlwaysUserIcon = Yes;
+    NoResizebar = Yes;
+    Icon = "wmaker-gimp2.tif";
+  };
+  NXTerm = {
+    Icon = GNUterm.tiff;
+  };
+  VirtualBox.VirtualBox = {
+    Icon = VBox.png;
+  };
+  lxappearance.Lxappearance = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/lxappearance.Lxappearance.xpm";
+  };
+  XTerm = {
+    Icon = GNUterm.tiff;
+  };
+  nitrogen.Nitrogen = {
+    Icon = "/home/aswin/GNUstep/Library/WindowMaker/CachedPixmaps/nitrogen.Nitrogen.xpm";
+  };
+  "VirtualBox Manager.VirtualBox Manager" = {
+    AlwaysUserIcon = Yes;
+    Icon = VBox.png;
+  };
+  Logo.WMDock = {
+    Icon = GNUterm.tiff;
+  };
+  Gimp = {
+    AlwaysUserIcon = Yes;
+    Icon = "wmaker-gimp2.tif";
+  };
+}
