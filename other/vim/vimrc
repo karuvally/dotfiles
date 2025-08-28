@@ -1,0 +1,32 @@
+" Enable syntax highlighting 
+syntax on
+
+" Load the filetype specific settings
+filetype plugin indent on
+
+" Show line numbers
+set number
+
+" Disable word wrap
+set nowrap
+
+" Show line number and column
+set ruler
+
+" Set colourscheme
+colorscheme desert
+
+" Highlight the current line
+set cursorline
+
+" Do horizontal scroll only one character at a time
+set sidescroll=1
+
+" Highlight search results
+set hlsearch
+
+" Actively search as you type
+set incsearch
+
+" Use the system clipboard
+" set clipboard+=unnamedplus
