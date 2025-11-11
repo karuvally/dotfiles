@@ -14,14 +14,14 @@ set nowrap
 set ruler
 
 " Set colourscheme
-colorscheme desert
+" colorscheme desert
 
 " Highlight the current line
-set cursorline
+" set cursorline
 
 " Do horizontal scroll only one character at a time
 set sidescroll=1
-
+     
 " Highlight search results
 set hlsearch
 
@@ -29,4 +29,12 @@ set hlsearch
 set incsearch
 
 " Use the system clipboard
-" set clipboard+=unnamedplus
+set clipboard+=unnamedplus
+
+" Plugins
+call plug#begin()
+Plug 'junegunn/fzf.vim'
+call plug#end()
+
+" Shortcuts
+nnoremap <C-p> :FZF<CR>
